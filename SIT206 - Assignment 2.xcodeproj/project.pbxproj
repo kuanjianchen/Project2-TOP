@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014B239720AACC0100058E6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014B239620AACC0100058E6E /* AppDelegate.swift */; };
+		014B239920AACC0100058E6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014B239820AACC0100058E6E /* ViewController.swift */; };
+		014B239C20AACC0100058E6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014B239A20AACC0100058E6E /* Main.storyboard */; };
+		014B239E20AACC0100058E6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014B239D20AACC0100058E6E /* Images.xcassets */; };
+		014B23A120AACC0100058E6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014B239F20AACC0100058E6E /* LaunchScreen.storyboard */; };
+		014B23AC20AACC0100058E6E /* SIT206___Assignment_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014B23AB20AACC0100058E6E /* SIT206___Assignment_2Tests.swift */; };
+		014B23B720AACC0100058E6E /* SIT206___Assignment_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014B23B620AACC0100058E6E /* SIT206___Assignment_2UITests.swift */; };
+		014B23D720AEA12300058E6E /* list.plist in Resources */ = {isa = PBXBuildFile; fileRef = 014B23D620AEA12300058E6E /* list.plist */; };
+		014B23D920AEA16D00058E6E /* demo4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 014B23D820AEA16D00058E6E /* demo4.jpg */; };
+		014B23DB20AEA18D00058E6E /* The Weeknd - Call Out My Name (Official Audio).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 014B23DA20AEA18D00058E6E /* The Weeknd - Call Out My Name (Official Audio).mp3 */; };
+		014B23DF20AEA79A00058E6E /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 014B23DE20AEA79A00058E6E /* list.png */; };
+		014B23E120AEA7A900058E6E /* listS.png in Resources */ = {isa = PBXBuildFile; fileRef = 014B23E020AEA7A900058E6E /* listS.png */; };
+		014B23E320AEA7B300058E6E /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 014B23E220AEA7B300058E6E /* next.png */; };
+		014B23E520AEA7BA00058E6E /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 014B23E420AEA7BA00058E6E /* pause.png */; };
+		014B23E720AEA7C000058E6E /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 014B23E620AEA7C000058E6E /* play.png */; };
+		014B23E920AEA7CA00058E6E /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = 014B23E820AEA7CA00058E6E /* previous.png */; };
+		014B23EB20AEA7D200058E6E /* repeat_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 014B23EA20AEA7D200058E6E /* repeat_s.png */; };
+		014B23ED20AEA7D900058E6E /* repeat.png in Resources */ = {isa = PBXBuildFile; fileRef = 014B23EC20AEA7D900058E6E /* repeat.png */; };
+		014B23EF20AEA7E200058E6E /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 014B23EE20AEA7E200058E6E /* shadow.png */; };
+		014B23F120AEA7EC00058E6E /* shuffle_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 014B23F020AEA7EC00058E6E /* shuffle_s.png */; };
+		014B23F320AEA7F200058E6E /* shuffle.png in Resources */ = {isa = PBXBuildFile; fileRef = 014B23F220AEA7F200058E6E /* shuffle.png */; };
+		014B23F520AEAEA100058E6E /* Baby Be Mine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 014B23F420AEAEA100058E6E /* Baby Be Mine.mp3 */; };
+		014B23F720AEAEB700058E6E /* Beat It.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 014B23F620AEAEB700058E6E /* Beat It.mp3 */; };
+		014B23F920AEAEBD00058E6E /* Billie Jean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 014B23F820AEAEBD00058E6E /* Billie Jean.mp3 */; };
+		014B23FB20AEAEC800058E6E /* demo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 014B23FA20AEAEC800058E6E /* demo1.png */; };
+		014B23FD20AEAECE00058E6E /* demo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 014B23FC20AEAECE00058E6E /* demo2.jpg */; };
+		014B23FF20AEAED300058E6E /* demo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 014B23FE20AEAED300058E6E /* demo3.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		014B23A820AACC0100058E6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 014B238B20AACC0100058E6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 014B239220AACC0100058E6E;
+			remoteInfo = "SIT206 - Assignment 2";
+		};
+		014B23B320AACC0100058E6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 014B238B20AACC0100058E6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 014B239220AACC0100058E6E;
+			remoteInfo = "SIT206 - Assignment 2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014B239320AACC0100058E6E /* SIT206 - Assignment 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SIT206 - Assignment 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		014B239620AACC0100058E6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		014B239820AACC0100058E6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		014B239B20AACC0100058E6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		014B239D20AACC0100058E6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		014B23A020AACC0100058E6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		014B23A220AACC0100058E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		014B23A720AACC0100058E6E /* SIT206 - Assignment 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SIT206 - Assignment 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		014B23AB20AACC0100058E6E /* SIT206___Assignment_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SIT206___Assignment_2Tests.swift"; sourceTree = "<group>"; };
+		014B23AD20AACC0100058E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		014B23B220AACC0100058E6E /* SIT206 - Assignment 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SIT206 - Assignment 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		014B23B620AACC0100058E6E /* SIT206___Assignment_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SIT206___Assignment_2UITests.swift"; sourceTree = "<group>"; };
+		014B23B820AACC0100058E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		014B23D620AEA12300058E6E /* list.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = list.plist; sourceTree = "<group>"; };
+		014B23D820AEA16D00058E6E /* demo4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo4.jpg; sourceTree = "<group>"; };
+		014B23DA20AEA18D00058E6E /* The Weeknd - Call Out My Name (Official Audio).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Weeknd - Call Out My Name (Official Audio).mp3"; sourceTree = "<group>"; };
+		014B23DE20AEA79A00058E6E /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		014B23E020AEA7A900058E6E /* listS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listS.png; sourceTree = "<group>"; };
+		014B23E220AEA7B300058E6E /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		014B23E420AEA7BA00058E6E /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		014B23E620AEA7C000058E6E /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		014B23E820AEA7CA00058E6E /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous.png; sourceTree = "<group>"; };
+		014B23EA20AEA7D200058E6E /* repeat_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = repeat_s.png; sourceTree = "<group>"; };
+		014B23EC20AEA7D900058E6E /* repeat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = repeat.png; sourceTree = "<group>"; };
+		014B23EE20AEA7E200058E6E /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow.png; sourceTree = "<group>"; };
+		014B23F020AEA7EC00058E6E /* shuffle_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuffle_s.png; sourceTree = "<group>"; };
+		014B23F220AEA7F200058E6E /* shuffle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuffle.png; sourceTree = "<group>"; };
+		014B23F420AEAEA100058E6E /* Baby Be Mine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Baby Be Mine.mp3"; sourceTree = "<group>"; };
+		014B23F620AEAEB700058E6E /* Beat It.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beat It.mp3"; sourceTree = "<group>"; };
+		014B23F820AEAEBD00058E6E /* Billie Jean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Billie Jean.mp3"; sourceTree = "<group>"; };
+		014B23FA20AEAEC800058E6E /* demo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo1.png; sourceTree = "<group>"; };
+		014B23FC20AEAECE00058E6E /* demo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo2.jpg; sourceTree = "<group>"; };
+		014B23FE20AEAED300058E6E /* demo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo3.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		014B239020AACC0100058E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		014B23A420AACC0100058E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		014B23AF20AACC0100058E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		014B238A20AACC0100058E6E = {
+			isa = PBXGroup;
+			children = (
+				014B239520AACC0100058E6E /* SIT206 - Assignment 2 */,
+				014B23AA20AACC0100058E6E /* SIT206 - Assignment 2Tests */,
+				014B23B520AACC0100058E6E /* SIT206 - Assignment 2UITests */,
+				014B239420AACC0100058E6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		014B239420AACC0100058E6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				014B239320AACC0100058E6E /* SIT206 - Assignment 2.app */,
+				014B23A720AACC0100058E6E /* SIT206 - Assignment 2Tests.xctest */,
+				014B23B220AACC0100058E6E /* SIT206 - Assignment 2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		014B239520AACC0100058E6E /* SIT206 - Assignment 2 */ = {
+			isa = PBXGroup;
+			children = (
+				014B23D520AEA01F00058E6E /* music */,
+				014B23D420AEA00B00058E6E /* Album Artwork */,
+				014B23D320AE9FFD00058E6E /* ALBUM DATA */,
+				014B23D220AE9FC900058E6E /* Asset */,
+				014B239F20AACC0100058E6E /* LaunchScreen.storyboard */,
+				014B239D20AACC0100058E6E /* Images.xcassets */,
+				014B239A20AACC0100058E6E /* Main.storyboard */,
+				014B239820AACC0100058E6E /* ViewController.swift */,
+				014B239620AACC0100058E6E /* AppDelegate.swift */,
+				014B23A220AACC0100058E6E /* Info.plist */,
+			);
+			path = "SIT206 - Assignment 2";
+			sourceTree = "<group>";
+		};
+		014B23AA20AACC0100058E6E /* SIT206 - Assignment 2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				014B23AB20AACC0100058E6E /* SIT206___Assignment_2Tests.swift */,
+				014B23AD20AACC0100058E6E /* Info.plist */,
+			);
+			path = "SIT206 - Assignment 2Tests";
+			sourceTree = "<group>";
+		};
+		014B23B520AACC0100058E6E /* SIT206 - Assignment 2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				014B23B620AACC0100058E6E /* SIT206___Assignment_2UITests.swift */,
+				014B23B820AACC0100058E6E /* Info.plist */,
+			);
+			path = "SIT206 - Assignment 2UITests";
+			sourceTree = "<group>";
+		};
+		014B23D220AE9FC900058E6E /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				014B23F220AEA7F200058E6E /* shuffle.png */,
+				014B23F020AEA7EC00058E6E /* shuffle_s.png */,
+				014B23EE20AEA7E200058E6E /* shadow.png */,
+				014B23EC20AEA7D900058E6E /* repeat.png */,
+				014B23EA20AEA7D200058E6E /* repeat_s.png */,
+				014B23E820AEA7CA00058E6E /* previous.png */,
+				014B23E620AEA7C000058E6E /* play.png */,
+				014B23E420AEA7BA00058E6E /* pause.png */,
+				014B23E220AEA7B300058E6E /* next.png */,
+				014B23E020AEA7A900058E6E /* listS.png */,
+				014B23DE20AEA79A00058E6E /* list.png */,
+			);
+			name = Asset;
+			sourceTree = "<group>";
+		};
+		014B23D320AE9FFD00058E6E /* ALBUM DATA */ = {
+			isa = PBXGroup;
+			children = (
+				014B23D620AEA12300058E6E /* list.plist */,
+			);
+			path = "ALBUM DATA";
+			sourceTree = "<group>";
+		};
+		014B23D420AEA00B00058E6E /* Album Artwork */ = {
+			isa = PBXGroup;
+			children = (
+				014B23FE20AEAED300058E6E /* demo3.jpg */,
+				014B23FC20AEAECE00058E6E /* demo2.jpg */,
+				014B23FA20AEAEC800058E6E /* demo1.png */,
+				014B23D820AEA16D00058E6E /* demo4.jpg */,
+			);
+			name = "Album Artwork";
+			sourceTree = "<group>";
+		};
+		014B23D520AEA01F00058E6E /* music */ = {
+			isa = PBXGroup;
+			children = (
+				014B23F820AEAEBD00058E6E /* Billie Jean.mp3 */,
+				014B23F620AEAEB700058E6E /* Beat It.mp3 */,
+				014B23F420AEAEA100058E6E /* Baby Be Mine.mp3 */,
+				014B23DA20AEA18D00058E6E /* The Weeknd - Call Out My Name (Official Audio).mp3 */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		014B239220AACC0100058E6E /* SIT206 - Assignment 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 014B23BB20AACC0100058E6E /* Build configuration list for PBXNativeTarget "SIT206 - Assignment 2" */;
+			buildPhases = (
+				014B238F20AACC0100058E6E /* Sources */,
+				014B239020AACC0100058E6E /* Frameworks */,
+				014B239120AACC0100058E6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SIT206 - Assignment 2";
+			productName = "SIT206 - Assignment 2";
+			productReference = 014B239320AACC0100058E6E /* SIT206 - Assignment 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		014B23A620AACC0100058E6E /* SIT206 - Assignment 2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 014B23BE20AACC0100058E6E /* Build configuration list for PBXNativeTarget "SIT206 - Assignment 2Tests" */;
+			buildPhases = (
+				014B23A320AACC0100058E6E /* Sources */,
+				014B23A420AACC0100058E6E /* Frameworks */,
+				014B23A520AACC0100058E6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				014B23A920AACC0100058E6E /* PBXTargetDependency */,
+			);
+			name = "SIT206 - Assignment 2Tests";
+			productName = "SIT206 - Assignment 2Tests";
+			productReference = 014B23A720AACC0100058E6E /* SIT206 - Assignment 2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		014B23B120AACC0100058E6E /* SIT206 - Assignment 2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 014B23C120AACC0100058E6E /* Build configuration list for PBXNativeTarget "SIT206 - Assignment 2UITests" */;
+			buildPhases = (
+				014B23AE20AACC0100058E6E /* Sources */,
+				014B23AF20AACC0100058E6E /* Frameworks */,
+				014B23B020AACC0100058E6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				014B23B420AACC0100058E6E /* PBXTargetDependency */,
+			);
+			name = "SIT206 - Assignment 2UITests";
+			productName = "SIT206 - Assignment 2UITests";
+			productReference = 014B23B220AACC0100058E6E /* SIT206 - Assignment 2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		014B238B20AACC0100058E6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "zichao kuang";
+				TargetAttributes = {
+					014B239220AACC0100058E6E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					014B23A620AACC0100058E6E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 014B239220AACC0100058E6E;
+					};
+					014B23B120AACC0100058E6E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 014B239220AACC0100058E6E;
+					};
+				};
+			};
+			buildConfigurationList = 014B238E20AACC0100058E6E /* Build configuration list for PBXProject "SIT206 - Assignment 2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 014B238A20AACC0100058E6E;
+			productRefGroup = 014B239420AACC0100058E6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				014B239220AACC0100058E6E /* SIT206 - Assignment 2 */,
+				014B23A620AACC0100058E6E /* SIT206 - Assignment 2Tests */,
+				014B23B120AACC0100058E6E /* SIT206 - Assignment 2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		014B239120AACC0100058E6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014B23F520AEAEA100058E6E /* Baby Be Mine.mp3 in Resources */,
+				014B23D720AEA12300058E6E /* list.plist in Resources */,
+				014B23E120AEA7A900058E6E /* listS.png in Resources */,
+				014B23EF20AEA7E200058E6E /* shadow.png in Resources */,
+				014B23DB20AEA18D00058E6E /* The Weeknd - Call Out My Name (Official Audio).mp3 in Resources */,
+				014B23F920AEAEBD00058E6E /* Billie Jean.mp3 in Resources */,
+				014B23E920AEA7CA00058E6E /* previous.png in Resources */,
+				014B23E520AEA7BA00058E6E /* pause.png in Resources */,
+				014B23EB20AEA7D200058E6E /* repeat_s.png in Resources */,
+				014B23FD20AEAECE00058E6E /* demo2.jpg in Resources */,
+				014B23E720AEA7C000058E6E /* play.png in Resources */,
+				014B23A120AACC0100058E6E /* LaunchScreen.storyboard in Resources */,
+				014B23F120AEA7EC00058E6E /* shuffle_s.png in Resources */,
+				014B23ED20AEA7D900058E6E /* repeat.png in Resources */,
+				014B23FB20AEAEC800058E6E /* demo1.png in Resources */,
+				014B23FF20AEAED300058E6E /* demo3.jpg in Resources */,
+				014B239E20AACC0100058E6E /* Images.xcassets in Resources */,
+				014B23E320AEA7B300058E6E /* next.png in Resources */,
+				014B23D920AEA16D00058E6E /* demo4.jpg in Resources */,
+				014B23F320AEA7F200058E6E /* shuffle.png in Resources */,
+				014B239C20AACC0100058E6E /* Main.storyboard in Resources */,
+				014B23F720AEAEB700058E6E /* Beat It.mp3 in Resources */,
+				014B23DF20AEA79A00058E6E /* list.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		014B23A520AACC0100058E6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		014B23B020AACC0100058E6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		014B238F20AACC0100058E6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014B239920AACC0100058E6E /* ViewController.swift in Sources */,
+				014B239720AACC0100058E6E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		014B23A320AACC0100058E6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014B23AC20AACC0100058E6E /* SIT206___Assignment_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		014B23AE20AACC0100058E6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014B23B720AACC0100058E6E /* SIT206___Assignment_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		014B23A920AACC0100058E6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 014B239220AACC0100058E6E /* SIT206 - Assignment 2 */;
+			targetProxy = 014B23A820AACC0100058E6E /* PBXContainerItemProxy */;
+		};
+		014B23B420AACC0100058E6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 014B239220AACC0100058E6E /* SIT206 - Assignment 2 */;
+			targetProxy = 014B23B320AACC0100058E6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		014B239A20AACC0100058E6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				014B239B20AACC0100058E6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		014B239F20AACC0100058E6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				014B23A020AACC0100058E6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		014B23B920AACC0100058E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		014B23BA20AACC0100058E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		014B23BC20AACC0100058E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SIT206 - Assignment 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Assignment-1.SIT206---Assignment-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		014B23BD20AACC0100058E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SIT206 - Assignment 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Assignment-1.SIT206---Assignment-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		014B23BF20AACC0100058E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SIT206 - Assignment 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Assignment-1.SIT206---Assignment-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SIT206 - Assignment 2.app/SIT206 - Assignment 2";
+			};
+			name = Debug;
+		};
+		014B23C020AACC0100058E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SIT206 - Assignment 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Assignment-1.SIT206---Assignment-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SIT206 - Assignment 2.app/SIT206 - Assignment 2";
+			};
+			name = Release;
+		};
+		014B23C220AACC0100058E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SIT206 - Assignment 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Assignment-1.SIT206---Assignment-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SIT206 - Assignment 2";
+			};
+			name = Debug;
+		};
+		014B23C320AACC0100058E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SIT206 - Assignment 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Assignment-1.SIT206---Assignment-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SIT206 - Assignment 2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		014B238E20AACC0100058E6E /* Build configuration list for PBXProject "SIT206 - Assignment 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014B23B920AACC0100058E6E /* Debug */,
+				014B23BA20AACC0100058E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		014B23BB20AACC0100058E6E /* Build configuration list for PBXNativeTarget "SIT206 - Assignment 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014B23BC20AACC0100058E6E /* Debug */,
+				014B23BD20AACC0100058E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		014B23BE20AACC0100058E6E /* Build configuration list for PBXNativeTarget "SIT206 - Assignment 2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014B23BF20AACC0100058E6E /* Debug */,
+				014B23C020AACC0100058E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		014B23C120AACC0100058E6E /* Build configuration list for PBXNativeTarget "SIT206 - Assignment 2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014B23C220AACC0100058E6E /* Debug */,
+				014B23C320AACC0100058E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 014B238B20AACC0100058E6E /* Project object */;
+}
