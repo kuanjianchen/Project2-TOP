@@ -14,8 +14,6 @@
 		013409AB20B67F3300BD362E /* In My Blood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 013409AA20B67F3300BD362E /* In My Blood.mp3 */; };
 		013409AF20B6809100BD362E /* demo5.png in Resources */ = {isa = PBXBuildFile; fileRef = 013409AE20B6809100BD362E /* demo5.png */; };
 		013409B120B6809600BD362E /* Youth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 013409B020B6809600BD362E /* Youth.mp3 */; };
-		013409B320B681B700BD362E /* demo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 013409B220B681B700BD362E /* demo2.jpg */; };
-		013409B520B681CB00BD362E /* demo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 013409B420B681CB00BD362E /* demo3.jpg */; };
 		013409B720B681D200BD362E /* demo6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 013409B620B681D200BD362E /* demo6.jpg */; };
 		013409B920B681E100BD362E /* Hymn For The Weekend.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 013409B820B681E100BD362E /* Hymn For The Weekend.mp3 */; };
 		013409BB20B682CE00BD362E /* Jocelyn Flores.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 013409BA20B682CE00BD362E /* Jocelyn Flores.mp3 */; };
@@ -45,6 +43,8 @@
 		014B23EF20AEA7E200058E6E /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 014B23EE20AEA7E200058E6E /* shadow.png */; };
 		014B23F120AEA7EC00058E6E /* shuffle_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 014B23F020AEA7EC00058E6E /* shuffle_s.png */; };
 		014B23F320AEA7F200058E6E /* shuffle.png in Resources */ = {isa = PBXBuildFile; fileRef = 014B23F220AEA7F200058E6E /* shuffle.png */; };
+		019C2E3E20BAE6880057E98C /* demo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 019C2E3D20BAE6880057E98C /* demo3.jpg */; };
+		019C2E4420BAE71C0057E98C /* demo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 019C2E4320BAE71C0057E98C /* demo2.jpg */; };
 		01ECDD8920B3F8860095F243 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01ECDD8820B3F8860095F243 /* logo.jpg */; };
 /* End PBXBuildFile section */
 
@@ -73,8 +73,6 @@
 		013409AA20B67F3300BD362E /* In My Blood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "In My Blood.mp3"; sourceTree = "<group>"; };
 		013409AE20B6809100BD362E /* demo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo5.png; sourceTree = "<group>"; };
 		013409B020B6809600BD362E /* Youth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Youth.mp3; sourceTree = "<group>"; };
-		013409B220B681B700BD362E /* demo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = demo2.jpg; path = "../../../未命名文件夹/demo2.jpg"; sourceTree = "<group>"; };
-		013409B420B681CB00BD362E /* demo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = demo3.jpg; path = "../../../未命名文件夹/demo3.jpg"; sourceTree = "<group>"; };
 		013409B620B681D200BD362E /* demo6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo6.jpg; sourceTree = "<group>"; };
 		013409B820B681E100BD362E /* Hymn For The Weekend.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hymn For The Weekend.mp3"; sourceTree = "<group>"; };
 		013409BA20B682CE00BD362E /* Jocelyn Flores.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jocelyn Flores.mp3"; sourceTree = "<group>"; };
@@ -110,6 +108,8 @@
 		014B23EE20AEA7E200058E6E /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow.png; sourceTree = "<group>"; };
 		014B23F020AEA7EC00058E6E /* shuffle_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuffle_s.png; sourceTree = "<group>"; };
 		014B23F220AEA7F200058E6E /* shuffle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuffle.png; sourceTree = "<group>"; };
+		019C2E3D20BAE6880057E98C /* demo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo3.jpg; sourceTree = "<group>"; };
+		019C2E4320BAE71C0057E98C /* demo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo2.jpg; sourceTree = "<group>"; };
 		01ECDD8820B3F8860095F243 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -225,11 +225,11 @@
 			isa = PBXGroup;
 			children = (
 				013409C420B6850100BD362E /* demo9.jpg */,
+				019C2E4320BAE71C0057E98C /* demo2.jpg */,
 				013409C020B683EC00BD362E /* demo8.jpg */,
+				019C2E3D20BAE6880057E98C /* demo3.jpg */,
 				013409BC20B682D200BD362E /* demo7.jpg */,
 				013409B620B681D200BD362E /* demo6.jpg */,
-				013409B420B681CB00BD362E /* demo3.jpg */,
-				013409B220B681B700BD362E /* demo2.jpg */,
 				013409AE20B6809100BD362E /* demo5.png */,
 				013409A020B679D400BD362E /* demo1.jpg */,
 				014B23D820AEA16D00058E6E /* demo4.jpg */,
@@ -367,6 +367,7 @@
 				014B23E520AEA7BA00058E6E /* pause.png in Resources */,
 				013409BB20B682CE00BD362E /* Jocelyn Flores.mp3 in Resources */,
 				014B23EB20AEA7D200058E6E /* repeat_s.png in Resources */,
+				019C2E4420BAE71C0057E98C /* demo2.jpg in Resources */,
 				014B23E720AEA7C000058E6E /* play.png in Resources */,
 				014B23A120AACC0100058E6E /* LaunchScreen.storyboard in Resources */,
 				014B23F120AEA7EC00058E6E /* shuffle_s.png in Resources */,
@@ -383,14 +384,13 @@
 				013409B720B681D200BD362E /* demo6.jpg in Resources */,
 				014B23F320AEA7F200058E6E /* shuffle.png in Resources */,
 				013409C120B683EC00BD362E /* demo8.jpg in Resources */,
-				013409B320B681B700BD362E /* demo2.jpg in Resources */,
 				013409C520B6850100BD362E /* demo9.jpg in Resources */,
+				019C2E3E20BAE6880057E98C /* demo3.jpg in Resources */,
 				014B239C20AACC0100058E6E /* Main.storyboard in Resources */,
 				013409BD20B682D200BD362E /* demo7.jpg in Resources */,
 				013409B120B6809600BD362E /* Youth.mp3 in Resources */,
 				013409A320B67A4800BD362E /* 18.mp3 in Resources */,
 				013409AF20B6809100BD362E /* demo5.png in Resources */,
-				013409B520B681CB00BD362E /* demo3.jpg in Resources */,
 				013409A920B67E7B00BD362E /* Call Out My Name.mp3 in Resources */,
 				013409A120B679D400BD362E /* demo1.jpg in Resources */,
 				013409C920B69D8200BD362E /* background1.png in Resources */,
