@@ -4,31 +4,31 @@
 <array>
 	<dict>
 		<key>artistName</key>
-		<string>Michael Jackson</string>
+		<string>Kris Wu</string>
 		<key>albumName</key>
-		<string>THRILLER</string>
+		<string>Eighteen</string>
 		<key>songName</key>
-		<string>Billie Jean</string>
+		<string>18</string>
 		<key>albumArtwork</key>
-		<string>demo1.png</string>
+		<string>demo1.jpg</string>
 	</dict>
 	<dict>
 		<key>artistName</key>
-		<string>Michael Jackson</string>
+		<string>Ed Sheeran</string>
 		<key>albumName</key>
-		<string>THRILLER</string>
+		<string>DIVIDE</string>
 		<key>songName</key>
-		<string>Beat It</string>
+		<string>Happier</string>
 		<key>albumArtwork</key>
 		<string>demo2.jpg</string>
 	</dict>
 	<dict>
 		<key>artistName</key>
-		<string>Michael Jackson</string>
+		<string>Shawn Mendes</string>
 		<key>albumName</key>
-		<string>THRILLER</string>
+		<string>In My Blood</string>
 		<key>songName</key>
-		<string>Baby Be Mine</string>
+		<string>In My Blood</string>
 		<key>albumArtwork</key>
 		<string>demo3.jpg</string>
 	</dict>
@@ -36,11 +36,61 @@
 		<key>artistName</key>
 		<string>The Weekend</string>
 		<key>albumName</key>
-		<string>THRILLER</string>
+		<string>My Dear Melancholy</string>
 		<key>songName</key>
-		<string>The Weeknd - Call Out My Name (Official Audio)</string>
+		<string>Call Out My Name</string>
 		<key>albumArtwork</key>
 		<string>demo4.jpg</string>
+	</dict>
+	<dict>
+		<key>artistName</key>
+		<string>Shawn Mendes/Khalid</string>
+		<key>albumName</key>
+		<string>Youth</string>
+		<key>songName</key>
+		<string>Youth</string>
+		<key>albumArtwork</key>
+		<string>demo5.png</string>
+	</dict>
+	<dict>
+		<key>artistName</key>
+		<string>Coldplay</string>
+		<key>albumName</key>
+		<string>A Head Full of Dreams</string>
+		<key>songName</key>
+		<string>Hymn For The Weekend</string>
+		<key>albumArtwork</key>
+		<string>demo6.jpg</string>
+	</dict>
+	<dict>
+		<key>artistName</key>
+		<string>XXXTENTACION</string>
+		<key>albumName</key>
+		<string>Jocelyn Flores</string>
+		<key>songName</key>
+		<string>Jocelyn Flores</string>
+		<key>albumArtwork</key>
+		<string>demo7.jpg</string>
+	</dict>
+	<dict>
+		<key>artistName</key>
+		<string>Rich chigga</string>
+		<key>albumName</key>
+		<string>Glow Like Dat</string>
+		<key>songName</key>
+		<string>Glow Like Dat</string>
+		<key>albumArtwork</key>
+		<string>demo8.jpg</string>
+	</dict>
+	<dict>
+		<key>artistName</key>
+		<string>Childish Gambino</string>
+		<key>albumName</key>
+		<string>This is America</string>
+		<key>songName</key>
+		<string>This Is America</string>
+		<key>albumArtwork</key>
+		<string>demo9.jpg</string>
 	</dict>
 </array>
 </plist>

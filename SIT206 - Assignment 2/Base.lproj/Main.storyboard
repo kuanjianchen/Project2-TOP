@@ -23,7 +23,7 @@
         <!--Player View Controller-->
         <scene sceneID="c0Q-KT-bbr">
             <objects>
-                <viewController id="dAf-V8-jyl" customClass="PlayerViewController" customModule="Music_Player" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dAf-V8-jyl" customClass="PlayerViewController" customModule="SIT206___Assignment_2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kEu-Sa-kIM"/>
                         <viewControllerLayoutGuide type="bottom" id="P9r-QR-kmz"/>
@@ -230,7 +230,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.89411764709999997" green="0.90588235289999997" blue="0.71372549019999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.75988122585646101" green="0.75105961890718898" blue="0.88256962435233155" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="gJC-Kh-X5O" firstAttribute="top" secondItem="vPJ-i9-IVJ" secondAttribute="bottom" constant="26" id="1CS-C5-x7K"/>
                             <constraint firstItem="Xba-jP-Xve" firstAttribute="top" secondItem="ert-6w-b25" secondAttribute="bottom" constant="2" id="31t-Xy-jHS"/>
